@@ -1,0 +1,18 @@
+IglooScore1.java
+
+line 41: We need to subtract smallest number score1 not largest number score2, s needs to be the smaller number score1.
+
+line 43: If score1 is larger we need to subtract score2, s needs to be the smaller number score2.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+IglooScore2.java
+
+
+line 42-44: This should store both highest numbers but was storing lower value. Should store score1 and score3.
+
+line 45-47: This should store both highest numbers but was storing lower value. Should store score1 and score2
+
+line 48-50: 99 value does not make sense make them equal to score1 or score2 or score3, any two of the three.
+
+line 59: There is no case where it is both since null length does not exist. 1 unreachable branch.
